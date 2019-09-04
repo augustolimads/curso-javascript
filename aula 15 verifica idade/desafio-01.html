@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Verificador de idade</h1>
+        </header>
+        <section id="caixa">
+            <!-- ################### ÁREA DE FORMULARIO ################### -->
+            <div id="entrada">
+                <form>
+                    <div>
+                        <label for="nasc">Ano de nascimento:</label>
+                        <input type="number" name="nasc" id="nasc" min="1900" max="2019">
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo: </label>
+                        <input type="radio" name="sexo" id="homem" checked>
+                        <label for="homem">Masculino</label>
+                        <input type="radio" name="sexo" id="mulher" >
+                        <label for="mulher">Feminino</label>
+                    </div>
+                    <div id="botao">
+                        <input type="button" value="Verificar" onclick="verificar()">
+                    </div> 
+
+                </form>    
+            </div>
+            <!-- ################### AREA RESULTADO ###################-->
+            <div id="resultado">
+                <p>Preencha os dados acima para ver o resultado.</p>
+
+            </div>
+        </section>
+        <footer>
+            <p>&copy; augusto.lima</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

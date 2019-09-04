@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: normal 18px Arial;
+}
+body{
+    background: silver;
+    color:white;
+}
+#container{
+    display: flex;
+    flex-direction: column;            
+    align-items: center;
+    margin-top: 6%;
+}
+#caixa{
+    height: 450px;
+    width: 380px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
+}
+#entrada{
+    margin-bottom: 50px;
+    display: flex;
+}
+#entrada form div{
+    margin: 20px;
+}
+#botao input{
+    float:right;
+    height: 40px;
+    width: 100%;
+}
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 170px;
+}
+header h1{
+    font: bold 42px Arial;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+}
+footer p{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+}

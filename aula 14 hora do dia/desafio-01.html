@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<!-- 
+    onload="carregar"
+    quando a página carregar, já carrega essa função do JS
+-->
+<body onload="carregar()">
+    <div id="container">
+        <header>
+            <h1>Hora do dia</h1>
+        </header>
+        <section id="caixa">
+            <p>Agora são <span id="msg">00</span> horas.</p>
+            <img id="imagem" src="manha.png" alt="foto do dia">
+        </section>
+        <footer>
+            <p>&copy; augusto.lima</p>
+        </footer>
+    </div>
+    <!-- É assim que chama a página JS-->
+    <script src="script.js"></script>
+</body>
+</html>

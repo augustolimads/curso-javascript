@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vamos contar</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Vamos contar!</h1>
+        </header>
+        <section id="caixa">
+            <div id="entrada">
+                <div>
+                    <label for="inicio">Início:</label>
+                    <input type="number" name="inicio" id="inicio" min="-10000" max="10000">
+                </div>
+                <div>
+                    <label for="fim">Fim:</label>
+                    <input type="number" name="fim" id="fim" min="-10000" max="10000">
+                </div>
+                <div>
+                    <label for="passo">Passo:</label>
+                    <input type="number" name="passo" id="passo" min="-10000" max="10000">
+                </div>
+                <div id="botao">
+                    <input type="button" value="Contar" onclick="contando()">
+                </div>
+            </div>
+            <div id="saída">
+                <p>Preparando a contagem...</p>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; augusto.lima</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
